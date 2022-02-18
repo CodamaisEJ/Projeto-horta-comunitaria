@@ -3,8 +3,7 @@
  
 <hr>
 
-<img alt="imagem protótipo"  title="Readme" src="https://user-images.githubusercontent.com/75643855/154766243-8da4164b-5041-47d9-a697-9e7648e873e4.PNG
-">
+<img alt="imagem protótipo"  title="Readme" src="https://user-images.githubusercontent.com/75643855/154766243-8da4164b-5041-47d9-a697-9e7648e873e4.PNG">
 
 <hr>
 ## Grupo
