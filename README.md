@@ -3,7 +3,7 @@
  
 <hr>
 
-<img alt="imagem protótipo" title="Readme" src="imgs/capa_readme.png">
+<img alt="imagem protótipo"  src="imgs/capa_readme.png">
 
 <hr>
 ## Grupo
