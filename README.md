@@ -3,6 +3,9 @@
  
 <hr>
 
+<img alt="imagem protótipo" title="Readme" src="./imgs/capa_readme.png">
+
+<hr>
 ## Grupo
 
 * **Camila Carvalho**  
