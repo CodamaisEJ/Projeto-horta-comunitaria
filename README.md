@@ -7,6 +7,7 @@
 
 <hr>
 ## Contribuintes:
+<br>
 
 * **Camila Carvalho**  
 * **Isamara Galvão**
