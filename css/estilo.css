@@ -17,6 +17,11 @@
     text-align: center;
 }
 
+.title-box {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
 .title-img {
     width: 49px;
     height: 49px;
@@ -27,9 +32,21 @@
     height: 71px;
 }
 
-#social-media {
-    margin-top: 50px;
+#container-footer {
     display: flex;
+}
+
+#container-social {
+    display: block;
+    margin-right: 10%;
+}
+
+#social-media {
+    display: flex;
+}
+
+.logo-footer {
+    margin-bottom: 70px;
 }
 
 .media-logo {
@@ -39,6 +56,7 @@
 }
 
 #contatos, #links {
+    margin-right: 10%;
     align-self: center;
 }
 
@@ -47,8 +65,13 @@
     height: 202px;
 }
 
-#copyright {
+#footer-info {
+    margin-top: 50px;
     text-align: center;
-    align-content: center;
-    border-top: solid 1px #C4C4C4;
+    border-top: 1px solid #C4C4C4;
 }
+
+.info {
+    padding-top: 15px;
+}
+
