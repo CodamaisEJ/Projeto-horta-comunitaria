@@ -4,12 +4,12 @@
     --orange:#FF9A62;
     --black:#130f40;
     --light-color:#666;
+    --green:#0FA958;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
     --border:.2rem solid rgba(0,0,0,.1);
-    --green:#0FA958;
-    --bg_section_par: #EEEEEE;
-    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba (0,0,0,.1);
     --outline-hover:.2rem solid var(--black);
+    --bg_section_par: #EEEEEE;
 }
 
 *{
@@ -20,7 +20,7 @@
     outline: none;
     border:none;
     text-decoration: none;
-    transition: all .5s linear;
+    transition: all .4s linear;
 }
 
 html{
@@ -235,10 +235,6 @@ nav{
     padding:.5rem 0;
 }
 
-
-
-
-/* Fim section categorias */
 
 /* Media Queries */
 
