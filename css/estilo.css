@@ -6,6 +6,39 @@
     box-sizing: border-box;
     font-family: "Poppins";
 }
+/*Estilos Section 3*/
+#section3 {
+    text-align: center;
+}
+
+#cards-box {
+    display: flex;
+    margin-left: 10%;
+}
+
+.card {
+    width: 400px;
+    height: 453px;
+    border: 1px solid #C4C4C4;
+    margin-right: 60px;
+}
+
+/*Estilos Section 4*/
+
+#container4 {
+    display: flex;
+}
+
+.delivery-card {
+    display: block;
+    line-height: 50px;
+    margin-right: 10%;
+}
+
+li {
+    list-style-type: none;
+}
+/*Estilos Footer*/
 
 #container {
     padding: 20px;
@@ -18,6 +51,7 @@
 }
 
 .title-box {
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 70px;
 }
