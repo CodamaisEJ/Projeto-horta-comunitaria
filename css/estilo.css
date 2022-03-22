@@ -270,3 +270,92 @@ nav{
     }
 
 } 
+
+
+/*Estilos Section 4*/
+
+#container4 {
+    display: flex;
+}
+
+.delivery-card {
+    display: block;
+    line-height: 50px;
+    margin-right: 10%;
+}
+
+li {
+    list-style-type: none;
+}
+/*Estilos Footer*/
+
+#container {
+    padding: 20px;
+}
+
+#footer {
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.title-box {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.title-img {
+    width: 49px;
+    height: 49px;
+}
+
+.logo-horta {
+    width: 168px;
+    height: 71px;
+}
+
+#container-footer {
+    display: flex;
+}
+
+#container-social {
+    display: block;
+    margin-right: 10%;
+}
+
+#social-media {
+    display: flex;
+}
+
+.logo-footer {
+    margin-bottom: 70px;
+}
+
+.media-logo {
+    width: 52px;
+    height: 52px;
+    margin-right: 15px;
+}
+
+#contatos, #links {
+    margin-right: 10%;
+    align-self: center;
+}
+
+.maps {
+    width: 244px;
+    height: 202px;
+}
+
+#footer-info {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid #C4C4C4;
+}
+
+.info {
+    padding-top: 15px;
+}
+
+
