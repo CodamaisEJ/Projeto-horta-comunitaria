@@ -38,13 +38,13 @@
                         <a class="nav-link h4 text-center" href="#categorias">Categorias</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link h4 text-center" href="#">Áreas de entrega</a>
+                        <a class="nav-link h4 text-center" href="#delivery">Áreas de entrega</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link h4 text-center" href="#">Encomendar</a>
+                        <a class="nav-link h4 text-center" href="#form">Encomendar</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link h4 text-center " href="#">Localização</a>
+                        <a class="nav-link h4 text-center " href="#maps">Localização</a>
                       </li>
                     </ul>
                     <form class="d-flex ">
@@ -195,95 +195,99 @@
     <!-- Fim section categorias-->
 
     <!-- Inicio section área de entrega -->
-    <main id="section4">
-      <div class="title-box" style="margin-bottom: 30px;">
-          <u><h4>Áreas de entrega <img src="/imgs/bx_bxs-leaf.svg" class="title-img"></h4></u>
-      </div>
-      <div id="container4">
-          <div class="delivery-card" style="margin-left: 23%;">
-              <ul>
-                  <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Cidade</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
-              </ul> 
+        <section id="delivery" class="row">
+          <div id="titulo-delivery">
+            <h1 class="titulo">Áreas de entrega</h1>
+            <img src="/imgs/favicon.svg">
           </div>
-          <div class="delivery-card">
+          <div class="row mt-5">
+            <div class="lista d-flex">
               <ul>
-                  <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Cidade</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Cidade</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
               </ul>
-          </div>
-          <div class="delivery-card">
               <ul>
-                  <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
-                  <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Cidade</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
               </ul>
+              <ul>
+                <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Cidade</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
+                <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
+              </ul>
+            </div>
           </div>
-      </div>
-  </main>
+        </section>
     <!-- Fim section área de entrega -->
     
     <!-- Inicio section footer -->
-    <div id="container">
-      <main id="footer">
-          <div class="title-box">
-              <u><h4>Encomendar <img src="/imgs/bx_bxs-leaf.svg" class="title-img"></h4></u>
+        <footer>
+          <div id="form">
+            <div id="form-container">
+              <div id="form-div">
+                <div id="titulo-form">
+                  <h1 class="titulo">Encomendar</h1>
+                  <img src="/imgs/favicon.svg">
+                </div>
+                <form action="">
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" id="input-nome" placeholder="Nome">
+                      <input type="text" class="form-control" id="input-email" placeholder="Email">
+                      <input type="text" class="form-control" id="input-cidade" placeholder="Cidade">
+                      <button type="submit">Enviar</button>
+                    </div>
+                  </div> 
+                </form>
+              </div>
+            </div>
           </div>
-          <form action="">
-              <div class="row">
-                  <div class="col" style="margin-bottom: 150px;">
-                      <input type="text" class="form-control" placeholder="Nome" style="background-color: #EEEEEE; color: #ADADAD; border: 0; border-radius: 10px; width: 508px; height: 55px; margin-bottom: 30px; margin-left: 34%;">
-                      <input type="text" class="form-control" placeholder="Email" style="background-color: #EEEEEE; color: #ADADAD; border: 0; border-radius: 10px; width: 508px; height: 55px; margin-bottom: 30px; margin-left: 34%;">
-                      <input type="text" class="form-control" placeholder="Cidade" style="background-color: #EEEEEE; color: #ADADAD; border: 0;;; border-radius: 10px; width: 508px; height: 55px; margin-bottom: 30px; margin-left: 34%;">
-                      <button type="submit" style="border: 0; border-radius: 40px; background-color: #FF9A62; color: #FFFFFF; width: 508px; height: 55px; margin-bottom: 30px;">Enviar</button>
-                  </div>
+          <div id="social" class="row">
+            <div id="media-container" class="col">
+              <img class="mb-5" src="/imgs/logoHorta.svg">
+              <div class="mt-5 d-block" id="social-media">
+                <a href="https://www.facebook.com/"><img src="/imgs/logo-fb.svg" class="media-logo"></a>
+                <a href="https://www.instagram.com/"><img src="/imgs/logo-insta.svg" class="media-logo"></a>
+                <a href="https://www.linkedin.com/"><img src="/imgs/logo-linkedin.svg" class="media-logo"></a>
               </div>
-          </form>
-      </main>
-      <footer>
-          <div id="container-footer">
-              <div id="container-social">
-                  <img src="/imgs/Logo.svg" class="logo-footer" alt="Logo Horta Comunitária">
-                  <div id="social-media">
-                      <a href="https://www.facebook.com/"><img src="/imgs/logo-fb.svg" class="media-logo"></a>
-                      <a href="https://www.instagram.com/"><img src="/imgs/logo-insta.svg" class="media-logo"></a>
-                      <a href="https://www.linkedin.com/"><img src="/imgs/logo-linkedin.svg" class="media-logo"></a>
-                  </div>
-              </div>
-              <div id="contatos">
-                  <h5>Contatos</h5>
-                  <p><img src="/imgs/carbon_phone-filled.svg"> (42) 3031-2345</p>
-                  <p><img src="/imgs/carbon_phone-filled.svg"> (42) 99342-2345</p>
-                  <p><img src="/imgs/carbon_email.svg"> hortacomunitária@email.com</p>
-              </div>
-              <div id="links">
-                  <h5>Links de Navegação</h5>
-                  <a href="#"><p><img src="/imgs/Ellipse 10.svg">Home</p></a>
-                  <a href="#"><p><img src="/imgs/Ellipse 10.svg">Produtos</p></a>
-                  <a href="#"><p><img src="/imgs/Ellipse 10.svg">Categorias</p></a>
-                  <a href="#"><p><img src="/imgs/Ellipse 10.svg">Áreas de Entrega</p></a>
-              </div>
-              <div id="local">
-                  <h5>Localização</h5>
-                  <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.9495066767518!2d-47.881290485145556!3d-15.753810189076468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b1e02415707%3A0x3060d8a3139ab079!2sInstituto%20Federal%20de%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1646318587709!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-              </div>
+            </div>
+            <div id="contatos" class="col">
+              <h4 class="mb-5">Contatos</h4>
+              <ul>
+                <li><img src="/imgs/carbon_phone-filled.svg">(42)3031-2345</li>
+                <li><img src="/imgs/carbon_phone-filled.svg">(42)99342-2345</li>
+                <li><img src="/imgs/carbon_email.svg"> hortacomunitaria@email.com</li>
+              </ul>
+            </div>
+            <div id="links" class="col">
+              <h4 class="mb-5">Links de navegação</h4>
+              <ul>
+                <li><img src="/imgs/Ellipse 10.svg"><a href="#">Home</a></li>
+                <li><img src="/imgs/Ellipse 10.svg"><a href="#produtos">Produtos</a></li>
+                <li><img src="/imgs/Ellipse 10.svg"><a href="#categorias">Categorias</a></li>
+                <li><img src="/imgs/Ellipse 10.svg"><a href="#delivery">Áreas de entrega</a></li>
+              </ul>
+            </div>
+            <div id="maps" class="col">
+              <h4 class="mb-5">Localização</h4>
+              <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.9495066767518!2d-47.881290485145556!3d-15.753810189076468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b1e02415707%3A0x3060d8a3139ab079!2sInstituto%20Federal%20de%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1646318587709!5m2!1spt-BR!2sbr" width="244" height="202" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
           </div>
-      </footer>
-  </div>
-  <div id="footer-info">
-      <p class="info">Copyright © 2022 | HC Todos os direitos reservados</p>
-  </div>
+          <div id="footer-info">
+            <p class="mt-3">Copyright © 2022 | HC Todos os direitos reservados </p>
+          </div>
+        </footer>
     <!--Fim section footer -->
 
     

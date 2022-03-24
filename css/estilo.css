@@ -274,88 +274,116 @@ nav{
 
 /*Estilos Section 4*/
 
-#container4 {
+#delivery {
+    padding: 2rem 11%;
+    background-color: var(--bg_section_par);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#delivery #titulo-delivery {
+    border-bottom:.2rem solid var(--black); 
+    width: 500px;
     display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
 }
 
-.delivery-card {
-    display: block;
-    line-height: 50px;
-    margin-right: 10%;
+.lista {
+    justify-content: center;
 }
 
-li {
+.lista li {
     list-style-type: none;
+    font-size: 2rem;
+    line-height: 5rem;
+    align-items: center;
+}
+
+.lista ul {
+    margin-right: 10rem;
 }
 /*Estilos Footer*/
 
-#container {
-    padding: 20px;
+#form {
+    padding: 4rem;
 }
 
-#footer {
+#form-container {
     border: 1px solid #C4C4C4;
     border-radius: 5px;
-    text-align: center;
+    justify-content: center;
 }
 
-.title-box {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 70px;
-}
-
-.title-img {
-    width: 49px;
-    height: 49px;
-}
-
-.logo-horta {
-    width: 168px;
-    height: 71px;
-}
-
-#container-footer {
+#form-container #titulo-form {
+    border-bottom:.2rem solid var(--black); 
+    width: 350px;
     display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
 }
 
-#container-social {
-    display: block;
-    margin-right: 10%;
+#form-div {
+    margin-left: 38%;
 }
 
-#social-media {
-    display: flex;
+#input-nome, #input-email, #input-cidade {
+    background-color: var(--bg_section_par);
+    border: 0;
+    border-radius: 10px;
+    width: auto;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    width: 380px;
+    height: 50px;
 }
 
-.logo-footer {
-    margin-bottom: 70px;
+form {
+    margin-left: -1.6%;
 }
 
-.media-logo {
-    width: 52px;
-    height: 52px;
-    margin-right: 15px;
+form button {
+    color: #fff;
+    background-color: var(--orange);
+    font-size: 2rem;
+    border-radius: 40px;
+    width: 380px;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 4rem;
 }
 
-#contatos, #links {
-    margin-right: 10%;
-    align-self: center;
+form button:hover {
+    background-color: #e58a58;
 }
 
-.maps {
-    width: 244px;
-    height: 202px;
+#social {
+    padding: 4rem;
+}
+
+#social li{
+    margin-left: -20px;
+    list-style-type: none;
+    font-size: 1.6rem;
+    line-height: 5rem;
+}
+
+#social li img {
+    margin-right: 10px;
+}
+
+#social h4 {
+    font-size: 2rem;
+}
+
+#social-media a {
+    margin-right: 2rem;
 }
 
 #footer-info {
-    margin-top: 50px;
+    width: 100%;
+    border-top:.2rem solid var(--black);
+    font-size: 1.6rem;
     text-align: center;
-    border-top: 1px solid #C4C4C4;
 }
-
-.info {
-    padding-top: 15px;
-}
-
-
