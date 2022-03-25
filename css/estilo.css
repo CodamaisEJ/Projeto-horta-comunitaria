@@ -339,11 +339,11 @@ nav{
     height: 50px;
 }
 
-form {
+#form-encomenda {
     margin-left: -1.6%;
 }
 
-form button {
+#form-encomenda button {
     color: #fff;
     background-color: var(--orange);
     font-size: 2rem;
@@ -354,7 +354,7 @@ form button {
     margin-bottom: 4rem;
 }
 
-form button:hover {
+#form-encomenda button:hover {
     background-color: #e58a58;
 }
 
