@@ -290,33 +290,33 @@ nav{
     margin-bottom: 1.5rem;
 }
 
-.lista {
+#lista {
     justify-content: center;
 }
 
-.lista li {
+#lista li {
     list-style-type: none;
     font-size: 2rem;
     line-height: 5rem;
     align-items: center;
 }
 
-.lista ul {
+#lista ul {
     margin-right: 10rem;
 }
 /*Estilos Footer*/
 
-#form {
+#encomendas {
     padding: 4rem;
 }
 
-#form-container {
+#container-encomendas {
     border: 1px solid #C4C4C4;
     border-radius: 5px;
     justify-content: center;
 }
 
-#form-container #titulo-form {
+#container-encomendas #titulo-encomendas {
     border-bottom:.2rem solid var(--black); 
     width: 350px;
     display: flex;
@@ -324,26 +324,20 @@ nav{
     margin-bottom: 7rem;
 }
 
-#form-div {
-    margin-left: 38%;
-}
-
-#input-nome, #input-email, #input-cidade {
+#form-encomendas input {
     background-color: var(--bg_section_par);
     border: 0;
     border-radius: 10px;
-    width: auto;
+    margin: auto;
     margin-bottom: 3rem;
     font-size: 2rem;
     width: 380px;
     height: 50px;
+    display: block;
+    align-self: center;
 }
 
-#form-encomenda {
-    margin-left: -1.6%;
-}
-
-#form-encomenda button {
+#form-encomendas button {
     color: #fff;
     background-color: var(--orange);
     font-size: 2rem;
@@ -351,10 +345,11 @@ nav{
     width: 380px;
     height: 50px;
     cursor: pointer;
+    margin: auto;
     margin-bottom: 4rem;
 }
 
-#form-encomenda button:hover {
+#form-encomendas button:hover {
     background-color: #e58a58;
 }
 

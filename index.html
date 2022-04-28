@@ -200,9 +200,8 @@
             <h1 class="titulo">Áreas de entrega</h1>
             <img src="/imgs/favicon.svg">
           </div>
-          <div class="row mt-5">
-            <div class="lista d-flex">
-              <ul>
+          <div id="lista" class="row mt-5">
+              <ul class="col">
                 <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
                 <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
                 <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
@@ -210,7 +209,7 @@
                 <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
                 <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
               </ul>
-              <ul>
+              <ul class="col">
                 <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
                 <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
                 <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
@@ -218,7 +217,7 @@
                 <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
                 <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
               </ul>
-              <ul>
+              <ul class="col">
                 <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
                 <li><img src="/imgs/Ellipse 10.svg"> Sudoeste</li>
                 <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
@@ -226,31 +225,27 @@
                 <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
                 <li><img src="/imgs/Ellipse 10.svg"> Plano Piloto (Asa Sul)</li>
               </ul>
-            </div>
           </div>
         </section>
     <!-- Fim section área de entrega -->
     
     <!-- Inicio section footer -->
         <footer>
-          <div id="form">
-            <div id="form-container">
-              <div id="form-div">
-                <div id="titulo-form">
-                  <h1 class="titulo">Encomendar</h1>
-                  <img src="/imgs/favicon.svg">
-                </div>
-                <form id="form-encomenda" action="">
-                  <div class="row">
-                    <div class="col">
-                      <input type="text" class="form-control" id="input-nome" placeholder="Nome">
-                      <input type="text" class="form-control" id="input-email" placeholder="Email">
-                      <input type="text" class="form-control" id="input-cidade" placeholder="Cidade">
-                      <button type="submit">Enviar</button>
-                    </div>
-                  </div> 
-                </form>
+          <div id="encomendas">
+            <div id="container-encomendas" class="row">
+              <div id="titulo-encomendas">
+                <h1 class="titulo">Encomendar</h1>
+                <img src="/imgs/favicon.svg">
               </div>
+              <form id="form-encomendas">
+                <div id="teste">
+                  <input type="text" class="form-control" id="input-nome" placeholder="Nome">
+                  <input type="text" class="form-control" id="input-email" placeholder="Email">
+                  <input type="text" class="form-control" id="input-cidade" placeholder="Cidade">
+                  <button type="submit" class="form-control">Enviar</button>
+                </div>
+                
+              </form>
             </div>
           </div>
           <div id="social" class="row">
