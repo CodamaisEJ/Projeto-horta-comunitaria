@@ -382,3 +382,9 @@ nav{
     font-size: 1.6rem;
     text-align: center;
 }
+
+@media (min-width: 280px) and (max-width: 415px){
+    #form-encomendas input, #form-encomendas button {
+        width: 250px;
+    }
+}
