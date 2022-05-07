@@ -10,6 +10,6 @@
 <br>
 
 * **Camila Carvalho**  
-* **Isamara Galvão**
 * **Júlio Neto** 
-* **Rossano Júnior** 
+* **Leonardo Lopes**
+* **Mateus Santos** 
